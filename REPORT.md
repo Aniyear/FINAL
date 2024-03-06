@@ -42,8 +42,7 @@ At the heart of our solution is TensorFlow, which we’ve employed to construct 
 ## III. Results
 
 ### Results with Tables, Pictures, and Interesting Numbers
-Our model has demonstrated impressive accuracy, precision, recall, and F1 scores, outperforming traditional diagnostic methods. Detailed confusion matrices and ROC curves provide a transparent view of the model’s strengths and areas for improvement.
-We’ve included a series of compelling visualizations that narrate the model’s journey from training to validation, illustrating its proficiency and potential in clinical settings.
+![Changes](https://github.com/Aniyear/FINAL/blob/main/images/1.png)
 
 ## IV. Discussion
 
