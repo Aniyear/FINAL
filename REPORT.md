@@ -43,7 +43,7 @@ At the heart of our solution is TensorFlow, which we’ve employed to construct 
 ## III. Results
 
 ### Results with Tables, Pictures, and Interesting Numbers
-![Changes](https://github.com/Aniyear/FINAL/blob/main/images/1.png)
+![Changes](https://github.com/Aniyear/FINAL/blob/main/images/1.jpg)
 
 ## IV. Discussion
 
