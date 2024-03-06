@@ -22,8 +22,8 @@ The dataset comprises a diverse collection of skin lesion images, meticulously l
 ![Our Dataset](https://github.com/Aniyear/FINAL/blob/main/images/2.jpg)
 ```
 Train Dataset:
-malignant    2088
-benign       2084
+malignant    900
+benign       900
 
 Validation Dataset:
 benign       298
@@ -32,6 +32,7 @@ malignant    297
 Test Dataset:
 benign       150
 malignant    148
+
 ```
 ![Our Dataset2](https://github.com/Aniyear/FINAL/blob/main/images/photo_2024-03-06_21-16-33.jpg)
 
