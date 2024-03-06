@@ -2,7 +2,6 @@
 
 ## Group: IT-2208
 **Students:** Aniyar Baibossyn, Almas Murat, Shakhnazar Kapar  
-**Astana, 2024**
 
 ## I. Introduction
 
