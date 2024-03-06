@@ -20,6 +20,17 @@ Our approach harnesses the power of pre-trained models, adapting them through tr
 The dataset comprises a diverse collection of skin lesion images, meticulously labeled as malignant or benign. Through exploratory data analysis, we've uncovered valuable insights into the dataset’s characteristics, ensuring our model is trained on a well-rounded and representative sample.
 
 ![Our Dataset](https://github.com/Aniyear/FINAL/blob/main/photo_2024-03-06_21-12-43.jpg)
+Train Dataset:
+malignant    2088
+benign       2084
+
+Validation Dataset:
+benign       298
+malignant    297
+
+Test Dataset:
+benign       150
+malignant    148
 
 ![Our Dataset2](https://github.com/Aniyear/FINAL/blob/main/photo_2024-03-06_21-16-33.jpg)
 
