@@ -18,7 +18,9 @@ Our approach harnesses the power of pre-trained models, adapting them through tr
 
 ### Information about the Data
 The dataset comprises a diverse collection of skin lesion images, meticulously labeled as malignant or benign. Through exploratory data analysis, we've uncovered valuable insights into the dataset’s characteristics, ensuring our model is trained on a well-rounded and representative sample.
+
 ![Our Dataset](https://github.com/Aniyear/FINAL/blob/main/photo_2024-03-06_21-12-43.jpg)
+
 
 ### Description of the ML/DL Models
 At the heart of our solution is TensorFlow, which we’ve employed to construct and fine-tune our machine learning models. The integration of transfer learning techniques allows us to utilize the robust feature extraction capabilities of established models, tailoring them to our specific use case.
