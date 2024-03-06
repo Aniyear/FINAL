@@ -24,13 +24,11 @@ The dataset comprises a diverse collection of skin lesion images, meticulously l
 Train Dataset:
 
 malignant    2088
-
 benign       2084
 
 Validation Dataset:
 
 benign       298
-
 malignant    297
 
 Test Dataset:
