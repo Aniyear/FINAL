@@ -6,10 +6,10 @@
 ## I. Introduction
 
 ### Problem
-Skin cancer poses a significant global health risk, emphasizing the importance of early detection for effective treatment. Traditional diagnostic methods relying on visual inspection can be subjective and inconsistent. This project aims to revolutionize skin cancer detection by developing a TensorFlow model utilizing transfer learning to improve diagnostic accuracy and efficiency.
+Skin cancer presents a significant global health risk, underscoring the need for early detection to facilitate effective treatment. Traditional diagnostic methods based on visual inspection can be subjective and inconsistent. This project aims to revolutionize skin cancer detection by developing a TensorFlow model utilizing transfer learning to improve diagnostic accuracy and efficiency.
 
 ### Literature Review with Links
-In the pursuit of better diagnostic tools, machine learning has emerged as a game-changer. Studies, such as those by [Kim et al.](https://doi.org/10.1186/s12880-022-00793-7) and [Nancy et al.](https://doi.org/10.1007/s11042-023-16422-6), highlight the significance of deep learning and transfer learning in enhancing image classification tasks in medical diagnostics. Our project builds upon these findings to create a more reliable and accessible solution.
+In the pursuit of improved diagnostic tools, machine learning has emerged as a transformative force. Studies by Kim et al. and Nancy et al. highlight the significance of deep learning and transfer learning in enhancing image classification tasks in medical diagnostics. This project builds upon these findings to create a more reliable and accessible solution.
 
 ### Current Work
 Our approach harnesses the power of pre-trained models, adapting them through transfer learning to recognize patterns indicative of malignant or benign skin lesions. This method not only accelerates the training process but also promises to deliver superior diagnostic capabilities.
