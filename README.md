@@ -85,6 +85,9 @@ Looking ahead, we aim to refine our model through advanced hyperparameter tuning
 
 This project stands as a beacon of innovation in the field of medical image analysis, showcasing the transformative potential of TensorFlow and transfer learning in the fight against skin cancer. With continued development and refinement, we are poised to make a significant impact on global health.
 
+## Link
+Youtube Video: [https://youtu.be/R8lNOA80gp0](https://youtu.be/R8lNOA80gp0). 
+
 ## References
 
 1. Kim, H. E., Cosa‐Linan, A., Santhanam, N., Jannesari, M., Maros, M. E., & Ganslandt, T. (2022). Transfer learning for medical image classification: a literature review. *BMC Medical Imaging, 22*(1). [https://doi.org/10.1186/s12880-022-00793-7](https://doi.org/10.1186/s12880-022-00793-7)
