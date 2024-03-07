@@ -19,7 +19,7 @@ Our approach harnesses the power of pre-trained models, adapting them through tr
 ### Information about the Data
 The dataset comprises a diverse collection of skin lesion images, meticulously labeled as malignant or benign. Through exploratory data analysis, we've uncovered valuable insights into the dataset’s characteristics, ensuring our model is trained on a well-rounded and representative sample.
 
-![Our Dataset](https://github.com/Aniyear/FINAL/blob/main/images/2.jpg)
+![Our Dataset](https://github.com/Aniyear/FINAL/blob/main/images/1.jpg)
 ```
 Train Dataset:
 malignant    900
@@ -34,16 +34,35 @@ benign       150
 malignant    148
 
 ```
-![Our Dataset2](https://github.com/Aniyear/FINAL/blob/main/images/photo_2024-03-06_21-16-33.jpg)
+![Our Dataset2](https://github.com/Aniyear/FINAL/blob/main/images/2.jpg)
 
 
 ### Description of the ML/DL Models
 At the heart of our solution is TensorFlow, which we’ve employed to construct and fine-tune our machine learning models. The integration of transfer learning techniques allows us to utilize the robust feature extraction capabilities of established models, tailoring them to our specific use case.
+```
+import tensorflow_hub as hub
+
+module_url = "https://tfhub.dev/google/tf2-preview/inception_v3/feature_vector/4"
+m = tf.keras.Sequential([
+    hub.KerasLayer(module_url, output_shape=[2048], trainable=False),
+    tf.keras.layers.Dense(1, activation="sigmoid")
+])
+
+m.build([None, IMG_HEIGHT, IMG_WIDTH, 3])
+
+m.compile(loss="binary_crossentropy", optimizer="adam", metrics=["accuracy"])
+
+m.summary()
+```
+
 
 ## III. Results
 
 ### Results with Tables, Pictures, and Interesting Numbers
-![Changes](https://github.com/Aniyear/FINAL/blob/main/images/1.jpg)
+![Changes](https://github.com/Aniyear/FINAL/blob/main/images/3.jpg)
+![Changes](https://github.com/Aniyear/FINAL/blob/main/images/4.jpg)
+![Changes](https://github.com/Aniyear/FINAL/blob/main/images/5.jpg)
+![Changes](https://github.com/Aniyear/FINAL/blob/main/images/6.jpg)
 
 ## IV. Discussion
 
