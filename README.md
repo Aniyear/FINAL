@@ -20,6 +20,7 @@ Our approach harnesses the power of pre-trained models, adapting them through tr
 The dataset comprises a diverse collection of skin lesion images, meticulously labeled as malignant or benign. Through exploratory data analysis, we've uncovered valuable insights into the dataset’s characteristics, ensuring our model is trained on a well-rounded and representative sample.
 
 ![Our Dataset](https://github.com/Aniyear/FINAL/blob/main/images/1.jpg)
+![Our Dataset2](https://github.com/Aniyear/FINAL/blob/main/images/2.jpg)
 ```
 Train Dataset:
 malignant    900
@@ -34,7 +35,6 @@ benign       150
 malignant    148
 
 ```
-![Our Dataset2](https://github.com/Aniyear/FINAL/blob/main/images/2.jpg)
 
 
 ### Description of the ML/DL Models
@@ -54,14 +54,23 @@ m.compile(loss="binary_crossentropy", optimizer="adam", metrics=["accuracy"])
 
 m.summary()
 ```
+We adjusted the dimensions of all images to (224, 224, 3) to align with the input requirements of the InceptionV3 architecture. To leverage transfer learning, we utilized the TensorFlow Hub library to import and incorporate the InceptionV3 architecture, along with its pre-trained weights from ImageNet. By setting the 'trainable' parameter to False, we ensured that the pre-trained weights remain fixed during our training process. Additionally, we appended a final output layer comprising a single unit. This layer is designed to produce an output value ranging between 0 and 1. A value closer to 0 signifies a prediction of "benign," while a value closer to 1 indicates a prediction of "malignant."
 
+KerasLayer (Transfer Learning from InceptionV3):
+Description: This layer uses transfer learning from the InceptionV3 architecture via TensorFlow Hub. It takes the preprocessed input images of size (224, 224, 3) and extracts features from them. The output shape is (None, 2048), meaning that each input image is represented by a feature vector of length 2048.
+
+Dense (Final Output Layer):
+Description: This layer is the final output layer of the model. It has 1 unit, which outputs a single scalar value representing the predicted probability of the input image belonging to the "malignant" class. The output is a value between 0 and 1, where values close to 0 indicate a prediction of "benign" and values close to 1 indicate a prediction of "malignant".
 
 ## III. Results
 
 ### Results with Tables, Pictures, and Interesting Numbers
 ![Changes](https://github.com/Aniyear/FINAL/blob/main/images/3.jpg)
+
 ![Changes](https://github.com/Aniyear/FINAL/blob/main/images/4.jpg)
+
 ![Changes](https://github.com/Aniyear/FINAL/blob/main/images/5.jpg)
+
 ![Changes](https://github.com/Aniyear/FINAL/blob/main/images/6.jpg)
 
 ## IV. Discussion
